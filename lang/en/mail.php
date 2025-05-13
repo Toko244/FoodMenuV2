@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'title' => 'Reset Password',
+    'user_message' => 'We cannot simply send you your old password. A unique link to reset your password has been generated for you. To reset your password, click the following link and follow the instructions.',
+    'reset_password' => 'Reset Password',
+    'user_request' => 'You have requested to reset your password',
+    'check_email' => 'Please check your email to continue registration',
+    'mail_sent' => 'Mail has been sent successfully',
+    'continue_registration' => 'Continue Registration',
+    'pending_registration' => 'Pending Registration',
+    'ambassador_message' => 'Hi there! You have been invited to continue your registration.Please click the link below to complete your registration',
+    'pending_message' => 'Dear User (Ambassador), Your registration is pending approval. We will review your information and get back to you shortly. Thank you for your patience! Best regards, FoodMenu',
+    'our_website' => 'Visit our website',
+    'name' => 'Name',
+    'surname' => 'Surname',
+    'email' => 'Email',
+    'phone' => 'Phone',
+    'date_of_birth' => 'Date of birth',
+    'personal_number' => 'Personal Number',
+    'city' => 'City',
+    'address' => 'Address',
+    'country' => 'Country',
+    'submit_ambassador' => 'New Ambassador Registration',
+    'submitted_message' => 'A new ambassador registration has been submitted. Please review the details below:',
+    'permission_denied' => 'You don\'t have a permission to invite users',
+];

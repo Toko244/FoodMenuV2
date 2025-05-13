@@ -1,0 +1,14 @@
+.icon-language {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-language-ka {
+    background-image: url(../../assets/images/georgia.svg);
+}
+.icon-language-en {
+    background-image: url(../../assets/images/United-States-Flag.svg);
+}

@@ -1,0 +1,35 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+.env.*
+Homestead.yaml
+Homestead.json
+.phpunit.result.cache
+
+# IDEs and system files
+.idea/
+.vscode/
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Composer & NPM files
+composer.lock
+package-lock.json
+yarn.lock
+
+# Laravel Octane
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+
+# Laravel Cache & Logs
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore

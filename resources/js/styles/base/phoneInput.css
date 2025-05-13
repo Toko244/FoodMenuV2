@@ -1,0 +1,9 @@
+.react-international-phone-country-selector-button {
+    padding: 10px;
+}
+.react-international-phone-input-container .react-international-phone-input {
+    width: 100%;
+}
+.react-international-phone-country-selector.error button {
+    border-color: #e53e3e;
+}

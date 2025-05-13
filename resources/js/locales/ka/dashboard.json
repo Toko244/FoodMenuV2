@@ -1,0 +1,78 @@
+{
+    "inputField": {
+        "email": "ელ.ფოსტა",
+        "password": "პაროლი",
+        "name": "სახელი",
+        "country": "აირჩიე ქვეყანა",
+        "city": "ქალაქი",
+        "address": "მისამართი",
+        "selector": "აირჩიე",
+        "zipCode": "ზიპ კოდი",
+        "state": "შტატი",
+        "phone": "ტელეფონის ნომერი",
+        "description": "არწერა",
+        "logo": "ატვირთეთ ლოგო",
+        "languages": "აირჩიეთ ენები",
+        "defaultLanguage": "აირჩიეთ მთავარი ენა"
+    },
+
+    "button": {
+        "submit": "დადასტურება",
+        "next": "შემდეგი",
+        "previous": "უკან"
+    },
+    "companies": {
+        "crud": {
+            "logo": "ლოგო",
+            "name": "სახელი",
+            "email": "ელ.ფოსტა",
+            "phone": "ტელეფონის ნომერი",
+            "state": "შტატი",
+            "city": "ქალაქი",
+            "actions": "მოქმედებები"
+        },
+        "form": {
+            "companyParameters": {
+                "title": "კომპანიის პარამეტრები",
+                "description": "კომპანიის პარამეტრების დაყენება",
+                "form": {
+                    "description": "შეიყვანეთ თქვენი კომპანიის პარამეტრები."
+                }
+            },
+            "companyDetails": {
+                "title": "კომპანიის დეტალები",
+                "description": "კომპანიის დეტალების დაყენება",
+                "form": {
+                    "description": "შეიყვანეთ თქვენი კომპანიის დეტალები."
+                }
+            },
+            "socialLinks": {
+                "title": "სოციალური ქსელები",
+                "description": "სოციალური ქსელების დამატება",
+                "form": {
+                    "description": "დაამატეთ თქვენი სოციალური ქსელები."
+                }
+            }
+        }
+    },
+
+    "validationMessage": {
+        "requiredEmailAddress": "ელ.ფოსტა სავალდებულოა",
+        "invalidEmailAddress": "არასწორი ელ.ფოსტა",
+        "requiredPassword": "პაროლი სავალდებულოა",
+        "passwordRequirements": "პაროლი უნდა შეიცავდეს მინიმუმ 8 სიმბოლოს, ერთ დიდი ასოს, ერთ პატარა ასოს, ერთ ციფრს და ერთ სიმბოლოს",
+        "confirmPasswordRequired": "პაროლის დადასტურება სავალდებულოა",
+        "passwordsMustMatch": "პაროლი არ ემთხვევა",
+        "requiredName": "სახელი სავალდებულოა",
+        "requiredSurname": "გვარი სავალდებულოა",
+        "requiredPhoneNumber": "ტელეფონის ნომერი სავალდებულოა",
+        "nameTooLong": "სახელი მაქსიმუმ 50 სიმბოლოს უნდა შეიცავდეს",
+        "surnameTooLong": "გვარი მაქსიმუმ 50 სიმბოლოს უნდა შეიცავდეს",
+        "phoneInvalid": "Არასწორი მობილურის ნომერი",
+        "requiredPersonalNumber": "პირადი ნომერი სავალდებულოა",
+        "requiredDateOfBirth": "დაბადების თარიღი სავალდებულოა",
+        "requiredCountry": "ქვეყანა სავალდებულოა",
+        "requiredCity": "ქალაქი სავალდებულოა",
+        "requiredAddress": "მისამართი სავალდებულოა"
+    }
+}

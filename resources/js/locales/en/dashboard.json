@@ -1,0 +1,76 @@
+{
+    "inputField": {
+        "email": "Email",
+        "name": "Name",
+        "country": "Select your country",
+        "city": "City",
+        "address": "Address",
+        "selector": "Select",
+        "zipCode": "Zipcode",
+        "state": "State",
+        "phone": "Phone Number",
+        "description": "Description",
+        "logo": "Upload Logo",
+        "languages": "Select Languages",
+        "defaultLanguage": "Select default language"
+    },
+    "button": {
+        "submit": "Submit",
+        "next": "Next",
+        "previous": "Previous"
+    },
+    "companies": {
+        "crud": {
+            "logo": "Logo",
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "state": "State",
+            "city": "City",
+            "actions": "Actions"
+        },
+        "form": {
+            "companyParameters": {
+                "title": "Company Parameters",
+                "description": "Setup Company Parameters",
+                "form": {
+                    "description": "Enter Your Company Parameters."
+                }
+            },
+            "companyDetails": {
+                "title": "Company Details",
+                "description": "Setup Company Details",
+                "form": {
+                    "description": "Enter Your Company Details."
+                }
+            },
+            "socialLinks": {
+                "title": "Social Links",
+                "description": "Add Social Links",
+                "form": {
+                    "description": "Enter Your Social Links."
+                }
+            }
+        }
+    },
+
+    "validationMessage": {
+        "requiredEmailAddress": "Email is required",
+        "invalidEmailAddress": "Invalid email address",
+        "requiredPassword": "Password is required",
+        "passwordRequirements": "Use 8 or more characters with a mix of letters, numbers & symbols.",
+        "confirmPasswordRequired": "The password confirmation is required",
+        "passwordsMustMatch": "The password and its confirm are not the same",
+        "requiredName": "Name is required",
+        "requiredSurname": "Surname is required",
+        "requiredPhoneNumber": "Phone number is required",
+        "phoneInvalid": "Phone number is invalid",
+        "nameTooLong": "Name must be at most 50 characters long",
+        "surnameTooLong": "Surname must be at most 50 characters long",
+        "requiredPersonalNumber": "Personal Number is required",
+        "requiredDateOfBirth": "Date of birth is required",
+        "requiredCountry": "Country is required",
+        "requiredCity": "City is required",
+        "requiredAddress": "Address is required"
+    }
+}
