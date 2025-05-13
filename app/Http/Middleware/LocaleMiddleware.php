@@ -16,8 +16,17 @@ class LocaleMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $locale = $request->header('Accept-Language');
-        App::setLocale($locale ?? config('app.fallback_locale'));
+        $acceptLang = $request->header('Accept-Language');
+
+        // Extract the first locale, e.g. "en_US" from "en_US,en;q=0.9"
+        $locale = collect(explode(',', $acceptLang))
+            ->map(fn($lang) => trim(explode(';', $lang)[0])) // get rid of ;q=x
+            ->first();
+
+        // Default fallback
+        $locale = $locale ?: config('app.fallback_locale');
+
+        App::setLocale($locale);
 
         return $next($request);
     }
